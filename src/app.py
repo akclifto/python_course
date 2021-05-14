@@ -1,5 +1,5 @@
 # overview of all the basics from athe udemy course
-
+import math
 
 print('this is the beginning')
 # not going to go over the variable deeply, you already know this. 
@@ -46,3 +46,21 @@ print(msg)
 # find('<character/string>') = returns index of first instance of char or substring", returns -1 if not found
 # replace("<character/string>", "<replacement>") find and replace char or string in something.
 # in operator (print("jo" in first_name)) = returns true if "jo" is present in first_name var above.  case sensitive
+
+
+# Maths
+
+print(7 / 3) # division
+print(7 // 3) # division floor
+print(7 % 3) # modulus/remainder only
+print(7 * 3) # multiplication
+print(7 ** 3) # math.pow operator, returns (7^3)
+print(abs(-46.3)) # absolute value
+print(round(-46.50)) # absolute value  **.50 rounds down, **.51 rounds up
+print(round(-46.51)) # absolute value  **.50 rounds down, **.51 rounds up
+
+# for complex math, import the math module
+print(math.exp(2)) # exponential value base set to e (recall calc)
+# check documentation for all the available functions in the math module
+
+
