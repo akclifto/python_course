@@ -2,7 +2,7 @@ def calc_age(birth_year, current_year):
     # age = current_year - birth_year
     # print(f"Age: {age}")
     return current_year - birth_year
-# a requires two line spaces to make the function distinct, note the two line spaces below.
+# a requires two line breaks to make the function distinct, note the two line breaks below.
 
 
 print("Name: John Smith")
