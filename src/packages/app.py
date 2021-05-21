@@ -11,3 +11,7 @@ calc_fee()
 calc_fee()
 calc_fee()
 
+# install open-source packages from pypi .org 
+# pip comes with python
+# use command to install:
+#   pip install <package_name>
