@@ -1,8 +1,9 @@
 import string
 
+
 class Characters:
-    def __init__(self, symbols):
-        self.symbols = symbols
+    def __init__(self):
+        pass
 
     def capital_alphabets(self):
         capital_letters = list(string.ascii_uppercase)
@@ -16,10 +17,6 @@ class Characters:
         numbers = list(string.digits)
         return numbers
 
-
-    # potato symbols hardcoded in signs
     def symbols(self):
-        symbols = self.symbols
-        return symbols.split(" ")
-
-
+        symbols = list(string.punctuation)
+        return symbols
