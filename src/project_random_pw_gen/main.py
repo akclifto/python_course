@@ -1,6 +1,5 @@
 from password import Password
 
-
 def main():
     ps = Password()
     password = ps.generate_pw()
